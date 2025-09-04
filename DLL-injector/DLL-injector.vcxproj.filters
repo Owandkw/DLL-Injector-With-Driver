@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{d7386771-35cd-47b6-a885-e44965461c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\dispath">
+      <UniqueIdentifier>{b8204739-cd2c-41ab-9e27-92ecffe6aff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xor">
+      <UniqueIdentifier>{3625d06c-ee98-4a87-87ce-5a0346e9b370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{0d1b708f-0249-43c3-9ba7-6b8adef552ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inject">
+      <UniqueIdentifier>{3a3b17f7-e42c-46a6-85ed-9abf13977361}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver\driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\dispath\defines.h">
+      <Filter>driver\dispath</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx\stdafx.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="xor\xor.h">
+      <Filter>xor</Filter>
+    </ClInclude>
+    <ClInclude Include="xor\xor_data.h">
+      <Filter>xor</Filter>
+    </ClInclude>
+    <ClInclude Include="xor\xor_value.h">
+      <Filter>xor</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx\ia32.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="inject\inject.h">
+      <Filter>inject</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\loader.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
